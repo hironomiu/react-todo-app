@@ -24,7 +24,6 @@ const App = () => {
           <h3 className="my-0 mr-md-auto">ToDoリスト</h3>
         </div>
 
-        {/* stateとdispatchはpropで渡す */}
         <TodoForm />
         <Todos />
 

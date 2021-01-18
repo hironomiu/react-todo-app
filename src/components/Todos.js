@@ -3,7 +3,7 @@ import AppContext from '../contexts/AppContext'
 import Todo from './Todo'
 
 const Todos = () => {
-    // App.js `<AppContext.Provider value={{state,dispatch}}>` で設定され分割代入で受け取り
+    // App.js `<AppContext.Provider value={{state}}>` で設定され分割代入で受け取り
     const { state } = useContext(AppContext)
     return (
         <>

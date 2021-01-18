@@ -2,7 +2,6 @@ import React, { useContext, useState } from 'react'
 import { CREATE_TODO, DELETE_ALL_TODOS } from '../actions'
 import AppContext from '../contexts/AppContext'
 
-// { state, dispatch }は分割代入
 const TodoForm = () => {
     const { state, dispatch } = useContext(AppContext)
     const [title, setTitle] = useState('')
